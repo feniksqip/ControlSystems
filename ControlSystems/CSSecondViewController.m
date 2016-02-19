@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  CSSecondViewController.m
 //  ControlSystems
 //
 //  Created by Andrey on 19.02.16.
 //  Copyright © 2016 Andrey. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "CSSecondViewController.h"
 
-@interface SecondViewController ()
+@interface CSSecondViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation CSSecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

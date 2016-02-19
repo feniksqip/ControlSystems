@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  CSFirstViewController.m
 //  ControlSystems
 //
 //  Created by Andrey on 19.02.16.
 //  Copyright © 2016 Andrey. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "CSFirstViewController.h"
 
-@interface FirstViewController ()
+@interface CSFirstViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation CSFirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  CSFirstViewController.h
 //  ControlSystems
 //
 //  Created by Andrey on 19.02.16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface CSFirstViewController : UIViewController
 
 
 @end
