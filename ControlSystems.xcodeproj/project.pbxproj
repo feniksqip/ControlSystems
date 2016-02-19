@@ -29,6 +29,7 @@
 		5597050A1C775B4800BC68E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5597050D1C775B4800BC68E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5597050F1C775B4800BC68E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559705151C77617F00BC68E9 /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +71,7 @@
 				5597050C1C775B4800BC68E9 /* LaunchScreen.storyboard */,
 				5597050F1C775B4800BC68E9 /* Info.plist */,
 				559704FB1C775B4800BC68E9 /* Supporting Files */,
+				559705151C77617F00BC68E9 /* Readme.txt */,
 			);
 			path = ControlSystems;
 			sourceTree = "<group>";
@@ -270,6 +272,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ControlSystems/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = andreyb.com.ControlSystems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,6 +284,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ControlSystems/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = andreyb.com.ControlSystems;
 				PRODUCT_NAME = "$(TARGET_NAME)";
