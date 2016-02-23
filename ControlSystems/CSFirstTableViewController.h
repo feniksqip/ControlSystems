@@ -1,5 +1,5 @@
 //
-//  CSFirstViewController.h
+//  CSFirstTableViewController.h
 //  ControlSystems
 //
 //  Created by Andrey on 19.02.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSFirstViewController : UIViewController
-
+@interface CSFirstTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end
-

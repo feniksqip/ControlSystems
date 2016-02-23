@@ -1,5 +1,5 @@
 //
-//  CSSecondViewController.h
+//  CSTabBarController.h
 //  ControlSystems
 //
 //  Created by Andrey on 19.02.16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSSecondViewController : UIViewController
-
+@interface CSTabBarController : UITabBarController
 
 @end
-

@@ -7,24 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556007AC1C7C8E8500905B50 /* CSPersonsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 556007AB1C7C8E8500905B50 /* CSPersonsLibrary.m */; };
+		558C970F1C77647700780B45 /* CSPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C970E1C77647700780B45 /* CSPerson.m */; };
+		558C97121C7779C200780B45 /* CSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C97111C7779C200780B45 /* CSTabBarController.m */; };
+		558C97151C777A9E00780B45 /* CSFirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C97141C777A9E00780B45 /* CSFirstTableViewController.m */; };
+		558C97181C777AB000780B45 /* CSSecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C97171C777AB000780B45 /* CSSecondTableViewController.m */; };
 		559704FD1C775B4800BC68E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559704FC1C775B4800BC68E9 /* main.m */; };
 		559705001C775B4800BC68E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559704FF1C775B4800BC68E9 /* AppDelegate.m */; };
-		559705031C775B4800BC68E9 /* CSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559705021C775B4800BC68E9 /* CSFirstViewController.m */; };
-		559705061C775B4800BC68E9 /* CSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559705051C775B4800BC68E9 /* CSSecondViewController.m */; };
 		559705091C775B4800BC68E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559705071C775B4800BC68E9 /* Main.storyboard */; };
 		5597050B1C775B4800BC68E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5597050A1C775B4800BC68E9 /* Assets.xcassets */; };
 		5597050E1C775B4800BC68E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5597050C1C775B4800BC68E9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556007AA1C7C8E8500905B50 /* CSPersonsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPersonsLibrary.h; sourceTree = "<group>"; };
+		556007AB1C7C8E8500905B50 /* CSPersonsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPersonsLibrary.m; sourceTree = "<group>"; };
+		558C970D1C77647700780B45 /* CSPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSPerson.h; sourceTree = "<group>"; };
+		558C970E1C77647700780B45 /* CSPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSPerson.m; sourceTree = "<group>"; };
+		558C97101C7779C200780B45 /* CSTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTabBarController.h; sourceTree = "<group>"; };
+		558C97111C7779C200780B45 /* CSTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTabBarController.m; sourceTree = "<group>"; };
+		558C97131C777A9E00780B45 /* CSFirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSFirstTableViewController.h; sourceTree = "<group>"; };
+		558C97141C777A9E00780B45 /* CSFirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSFirstTableViewController.m; sourceTree = "<group>"; };
+		558C97161C777AB000780B45 /* CSSecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSecondTableViewController.h; sourceTree = "<group>"; };
+		558C97171C777AB000780B45 /* CSSecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSecondTableViewController.m; sourceTree = "<group>"; };
 		559704F81C775B4800BC68E9 /* ControlSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		559704FC1C775B4800BC68E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		559704FE1C775B4800BC68E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		559704FF1C775B4800BC68E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		559705011C775B4800BC68E9 /* CSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFirstViewController.h; sourceTree = "<group>"; };
-		559705021C775B4800BC68E9 /* CSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFirstViewController.m; sourceTree = "<group>"; };
-		559705041C775B4800BC68E9 /* CSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSSecondViewController.h; sourceTree = "<group>"; };
-		559705051C775B4800BC68E9 /* CSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSSecondViewController.m; sourceTree = "<group>"; };
 		559705081C775B4800BC68E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5597050A1C775B4800BC68E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5597050D1C775B4800BC68E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,16 +71,20 @@
 		559704FA1C775B4800BC68E9 /* ControlSystems */ = {
 			isa = PBXGroup;
 			children = (
-				559705011C775B4800BC68E9 /* CSFirstViewController.h */,
-				559705021C775B4800BC68E9 /* CSFirstViewController.m */,
-				559705041C775B4800BC68E9 /* CSSecondViewController.h */,
-				559705051C775B4800BC68E9 /* CSSecondViewController.m */,
+				556007AA1C7C8E8500905B50 /* CSPersonsLibrary.h */,
+				556007AB1C7C8E8500905B50 /* CSPersonsLibrary.m */,
+				558C970D1C77647700780B45 /* CSPerson.h */,
+				558C970E1C77647700780B45 /* CSPerson.m */,
+				558C97101C7779C200780B45 /* CSTabBarController.h */,
+				558C97111C7779C200780B45 /* CSTabBarController.m */,
+				558C97131C777A9E00780B45 /* CSFirstTableViewController.h */,
+				558C97141C777A9E00780B45 /* CSFirstTableViewController.m */,
+				558C97161C777AB000780B45 /* CSSecondTableViewController.h */,
+				558C97171C777AB000780B45 /* CSSecondTableViewController.m */,
 				559705071C775B4800BC68E9 /* Main.storyboard */,
-				5597050A1C775B4800BC68E9 /* Assets.xcassets */,
-				5597050C1C775B4800BC68E9 /* LaunchScreen.storyboard */,
-				5597050F1C775B4800BC68E9 /* Info.plist */,
+				559704FE1C775B4800BC68E9 /* AppDelegate.h */,
+				559704FF1C775B4800BC68E9 /* AppDelegate.m */,
 				559704FB1C775B4800BC68E9 /* Supporting Files */,
-				559705151C77617F00BC68E9 /* Readme.txt */,
 			);
 			path = ControlSystems;
 			sourceTree = "<group>";
@@ -79,8 +92,10 @@
 		559704FB1C775B4800BC68E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				559704FE1C775B4800BC68E9 /* AppDelegate.h */,
-				559704FF1C775B4800BC68E9 /* AppDelegate.m */,
+				5597050C1C775B4800BC68E9 /* LaunchScreen.storyboard */,
+				5597050F1C775B4800BC68E9 /* Info.plist */,
+				559705151C77617F00BC68E9 /* Readme.txt */,
+				5597050A1C775B4800BC68E9 /* Assets.xcassets */,
 				559704FC1C775B4800BC68E9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,9 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				559705061C775B4800BC68E9 /* CSSecondViewController.m in Sources */,
+				558C97181C777AB000780B45 /* CSSecondTableViewController.m in Sources */,
+				556007AC1C7C8E8500905B50 /* CSPersonsLibrary.m in Sources */,
 				559705001C775B4800BC68E9 /* AppDelegate.m in Sources */,
-				559705031C775B4800BC68E9 /* CSFirstViewController.m in Sources */,
+				558C97121C7779C200780B45 /* CSTabBarController.m in Sources */,
+				558C97151C777A9E00780B45 /* CSFirstTableViewController.m in Sources */,
+				558C970F1C77647700780B45 /* CSPerson.m in Sources */,
 				559704FD1C775B4800BC68E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +328,7 @@
 				559705141C775B4800BC68E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

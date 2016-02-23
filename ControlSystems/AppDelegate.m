@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CSPersonsLibrary.h"
 
 @interface AppDelegate ()
 
@@ -17,12 +18,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    
+    // нажали кнопку home
+    
+    // обновляем данные в отдельном потоке
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        CSPersonsLibrary *personsLibrary = [CSPersonsLibrary sharedInstance];
+        NSArray *persons = [personsLibrary persons];
+        
+        uint randIndex = arc4random_uniform([persons count]);
+        CSPerson *person = [[CSPerson alloc] initWithID:[[persons objectAtIndex:randIndex] personID] Name:@"NewName" Country:@"NewCountry"];
+        [personsLibrary deletePersonAtIndex:randIndex];
+        [personsLibrary addPerson:person atIndex:randIndex];
+    });
+    
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -32,10 +47,16 @@
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    // переключаемся снова на наше приложение
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+    // переключение на наше приложение произошло
+    
+    // обновляем интерфейс, посылаем для этого уведомление
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ReloadTableFromAppDelegate" object:nil];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
